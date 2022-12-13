@@ -1,0 +1,5 @@
+{
+  "db": "mongodb://localhost/todo",
+  "port": "8000",
+  "requiresAuth": true
+}

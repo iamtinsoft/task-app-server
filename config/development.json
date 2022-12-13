@@ -1,0 +1,6 @@
+{
+  "db": "mongodb://localhost/todo",
+  "port": "5000",
+  "requiresAuth": false,
+  "jwtPrivateKey": "todo_jwtPrivateKey"
+}

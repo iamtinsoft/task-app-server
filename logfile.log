@@ -1,0 +1,20 @@
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T10:30:16.430Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T10:30:16.453Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T10:44:24.050Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T10:44:24.066Z"}
+{"message":"data and hash arguments required","stack":"Error: data and hash arguments required\n    at Object.compare (/Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/bcrypt.js:208:17)\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (/Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/promises.js:20:12)\n    at Object.compare (/Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/bcrypt.js:204:25)\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/routes/user.js:86:38\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","level":"error","timestamp":"2022-12-13T10:49:02.468Z"}
+{"message":"data and hash arguments required","stack":"Error: data and hash arguments required\n    at Object.compare (/Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/bcrypt.js:208:17)\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (/Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/promises.js:20:12)\n    at Object.compare (/Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/node_modules/bcrypt/bcrypt.js:204:25)\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/routes/user.js:86:38\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","level":"error","timestamp":"2022-12-13T10:49:25.716Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T10:54:32.614Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T10:54:32.630Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T10:57:39.426Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T10:57:39.442Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T11:34:17.731Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T11:34:17.747Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T11:37:54.079Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T11:37:54.096Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T11:38:37.087Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T11:38:37.104Z"}
+{"message":"sendEmail is not defined","stack":"ReferenceError: sendEmail is not defined\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/routes/task.js:57:3\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","level":"error","timestamp":"2022-12-13T11:41:40.152Z"}
+{"message":"sendEmail is not defined","stack":"ReferenceError: sendEmail is not defined\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/routes/task.js:57:3\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","level":"error","timestamp":"2022-12-13T11:42:10.734Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T11:42:19.908Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T11:42:19.923Z"}
