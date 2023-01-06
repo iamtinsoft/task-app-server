@@ -1,5 +1,7 @@
 const cors = require("cors");
-
-module.exports = function(app) {
-  app.use(cors());
+const corsOptions = {
+  exposedHeaders: "x-auth-token",
+};
+module.exports = function (app) {
+  app.use(cors(corsOptions));
 };

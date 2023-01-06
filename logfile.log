@@ -18,3 +18,13 @@
 {"message":"sendEmail is not defined","stack":"ReferenceError: sendEmail is not defined\n    at /Users/dabz/Documents/Projects/WebApps/NodeJsApps/task-server/routes/task.js:57:3\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","level":"error","timestamp":"2022-12-13T11:42:10.734Z"}
 {"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-13T11:42:19.908Z"}
 {"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-13T11:42:19.923Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-14T10:25:33.534Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-14T10:25:33.572Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-14T13:28:25.384Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-14T13:28:25.400Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-14T13:43:30.775Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-14T13:43:30.792Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2022-12-21T18:47:09.302Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2022-12-21T18:47:09.331Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2023-01-05T19:16:16.099Z"}
+{"level":"info","message":"Connected to mongodb://localhost/todo...","timestamp":"2023-01-05T19:16:16.165Z"}

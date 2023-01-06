@@ -10,7 +10,7 @@ const {
 const mongoose = require("mongoose");
 const moment = require("moment");
 const express = require("express");
-const { sendEmail } = require("../helpers/email");
+//const { sendEmail } = require("../helpers/email");
 const router = express.Router();
 
 // Show all user
@@ -36,7 +36,7 @@ router.post("/", async (req, res) => {
   user = new User({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
-    email: req.body.email,
+    email: req.body.email.toLowerCase(),
     password: req.body.password,
     createdAt: moment().toJSON(),
     lastLogin: moment().toJSON(),
@@ -66,11 +66,11 @@ router.put("/:id", async (req, res) => {
   });
   if (!user)
     return res.status(404).send("The user with the given ID was not found.");
-  sendEmail(
-    user.email,
-    "Account Notification",
-    "Your Password has been Changed Successfully"
-  );
+  // sendEmail(
+  //   user.email,
+  //   "Account Notification",
+  //   "Your Password has been Changed Successfully"
+  // );
   const token = user.generateAuthToken();
   res.header("x-auth-token", token).send(token);
 });
