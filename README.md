@@ -1,3 +1,3 @@
 # task-app-server
 
-A todo App created using Node Js / Express Js
+A todo App created using Node Js / Express Js and Mongo DB
